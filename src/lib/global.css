@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 @tailwind base;
 @tailwind utilities;
 
 body
 {
-	font-family: Archivo, sans-serif;
-	margin: 0;
-	height: 100%;
-	overflow: hidden;
-	background: black;
+        font-family: Ubuntu, sans-serif;
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #2c001e;
+        color: #eee;
 }
 
 html
