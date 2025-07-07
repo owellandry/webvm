@@ -67,7 +67,7 @@
 	export let handleTool;
 </script>
 
-<div class="flex flex-row w-14 h-full bg-neutral-700" >
+<div class="flex flex-row w-14 h-full bg-[#2c001e]" >
 	<div class="flex flex-col shrink-0 w-14 text-gray-300">
 		{#each icons as i}
 			{#if i}
@@ -94,7 +94,7 @@
 				buttonIcon="fa-solid fa-thumbtack"
 				clickHandler={toggleSidebarPin}
 				buttonTooltip={sideBarPinned ? "Unpin Sidebar" : "Pin Sidebar"}
-				bgColor={sideBarPinned ? "bg-neutral-500" : "bg-neutral-700"}
+                               bgColor={sideBarPinned ? "bg-neutral-500" : "bg-[#2c001e]"}
 			/>
 		</div>
 		{#if activeInfo === 'Information'}
