@@ -1,27 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind utilities;
 
-body
-{
-        font-family: Ubuntu, sans-serif;
+body {
+        font-family: 'Ubuntu', Arial, sans-serif;
         margin: 0;
         height: 100%;
         overflow: hidden;
-        background: #2c001e;
+        background: linear-gradient(135deg, #2c001e 0%, #77216f 50%, #f47421 100%);
         color: #eee;
 }
 
-html
-{
-	height: 100%;
+html {
+        height: 100%;
 }
 
-@media (width <= 850px)
-{
-	html
-	{
-		font-size: calc(100vw / 55);
-	}
+::-webkit-scrollbar {
+        width: 10px;
+        background: #2c001e;
+}
+
+::-webkit-scrollbar-thumb {
+        background: #77216f;
+        border-radius: 8px;
+}
+
+@media (width <=850px) {
+        html {
+                font-size: calc(100vw / 55);
+        }
 }
