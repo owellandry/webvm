@@ -1,7 +1,6 @@
 <script>
 	import { onMount, tick } from "svelte";
 	import { get } from "svelte/store";
-	import Nav from "labs/packages/global-navbar/src/Nav.svelte";
 	import SideBar from "$lib/SideBar.svelte";
 	import "$lib/global.css";
 	import "@xterm/xterm/css/xterm.css";
@@ -344,7 +343,6 @@
 </script>
 
 <main class="relative w-full h-full">
-	<Nav />
 	<slot name="topbar"></slot>
 	<div
 		style="display: flex; height: 100vh; width: 100vw; position: relative;"
