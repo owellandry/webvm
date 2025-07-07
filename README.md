@@ -45,6 +45,8 @@ Modern browsers do not provide APIs to directly use TCP or UDP. WebVM provides n
 
 You can now customize `dockerfiles/debian_mini` to suit your needs, or make a new Dockerfile from scratch. Use the `Path to Dockerfile` workflow parameter to select it.
 
+For a more complete graphical setup, try the example `dockerfiles/ubuntu_desktop` Dockerfile. It adds an Ubuntu-style XFCE environment with Firefox and Sublime Text.
+
 # Run WebVM locally with a custom Debian mini disk image
 
 1. Clone the WebVM Repository
@@ -142,6 +144,10 @@ index 2878332..1f3103a 100644
 -CMD [ "/bin/bash" ]
 +CMD [ "/usr/bin/python3" ]
 ```
+
+## Example customization: Ubuntu-like desktop
+
+An additional Dockerfile, `dockerfiles/ubuntu_desktop`, installs an XFCE desktop along with Firefox and Sublime Text. Build an image from it to get a WebVM that looks and behaves much like Ubuntu.
 
 # How to use Claude AI
 
