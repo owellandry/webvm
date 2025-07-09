@@ -215,11 +215,12 @@ WebVM is released under the Apache License, Version 2.0.
 You are welcome to use, modify, and redistribute the contents of this repository.
 
 
-## Repo Activity
-![Alt](https://repobeats.axiom.co/api/embed/0af4ce8a75f4a12ec78973ddf7021c769b9a0051.svg "Repobeats analytics image")
-
 The public CheerpX deployment is provided **as-is** and is **free to use** for technological exploration, testing and use by individuals. Any other use by organizations, including non-profit, academia and the public sector, requires a license. Downloading a CheerpX build for the purpose of hosting it elsewhere is not permitted without a commercial license.
 
 Read more about [CheerpX licensing](https://cheerpx.io/docs/licensing)
 
 If you want to build a product on top of CheerpX/WebVM, please get in touch: sales@leaningtech.com
+
+## Actividad del repo
+
+![Alt](https://repobeats.axiom.co/api/embed/64c14617cfe3eef67cde06deda34e70ff50d1be3.svg "Repobeats analytics image")
